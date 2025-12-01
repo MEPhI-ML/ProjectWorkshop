@@ -187,11 +187,10 @@
 ```
 ProjectWorkshop/
 ├── Bart_large.ipynb    # Основной файл проекта (Jupyter notebook)
-├── README.md           # Документация проекта
-└── requirements.txt    # Список требуемых для проекта зависимостей
+└── README.md           # Документация проекта
 ```
 
-## Установка
+## Использование
 
 ### Требования
 
@@ -199,50 +198,13 @@ ProjectWorkshop/
 - Jupyter Notebook или Google Colab для запуска проекта
 - CUDA-совместимая видеокарта (опционально, для ускорения работы моделей)
 
-### Установка зависимостей
-
-**Обязательные пакеты для работы проекта:**
-
-```bash
-pip install -U transformers accelerate
-```
-
-Для работы в Jupyter notebook используйте:
-
-```python
-!pip install -U transformers accelerate
-```
-
-**Дополнительные зависимости:**
-
-```bash
-pip install pandas numpy torch
-```
-
-Или установите все зависимости из файла requirements.txt:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Использование
-
 ### Запуск проекта
 
-Проект разработан для работы в **Jupyter Notebook** или **Google Colab**.
+Проект разработан для работы в **Jupyter Notebook** или **Google Colab**:
 
-**Вариант 1: Google Colab**
-
-1. Откройте файл `Bart_large.ipynb` в Google Colab
+1. Откройте файл `Bart_large.ipynb` в Google Colab или Jupyter Notebook
 2. Запустите первую ячейку для установки зависимостей
-3. Выполните все ячейки последовательно
-
-**Вариант 2: Jupyter Notebook (локально)**
-
-1. Установите Jupyter: `pip install jupyter`
-2. Запустите Jupyter: `jupyter notebook`
-3. Откройте файл `Bart_large.ipynb`
-4. Выполните все ячейки последовательно
+3. Выполните все остальные ячейки последовательно
 
 ### Описание работы
 
